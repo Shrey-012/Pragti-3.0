@@ -1,0 +1,46 @@
+.navbar{
+background-color: white;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+padding-left: 500px;
+align-items: center;
+
+
+}
+
+.searchbar{
+    background-color: gainsboro;
+    display:flex;
+    align-items:center;
+    margin-right: 500px;
+    border:10px;
+    border-radius: 20px ;
+   
+}
+.heading{
+    font-size: 30px;
+}
+.products{
+    display: grid;
+    padding-top: 20px;
+    padding: 20px 100px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,350px));
+    align-items:center ;
+    justify-content: center;
+    grid-gap: 50px;
+}
+.product{
+   
+    padding:10px;
+    height:max-content;
+}
+.price {
+    font-size: 30px;
+    color:black;
+    text-align: right;
+    margin-top: 20px;
+}
+.product img{
+    width: 100%
+}
